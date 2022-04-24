@@ -1,0 +1,69 @@
+.fa-bg-icon {
+  background-color: #109cf1;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: #fff;
+  position: absolute;
+  right: 0;
+}
+.dataTables_filter > label > input {
+  padding: 3px 6px !important;
+  border: 1px solid #109cf1 !important;
+  color: #109cf1 !important;
+  border-radius: 5px !important;
+  &::placeholder {
+    color: #109cf1 !important;
+  }
+  &:focus {
+    outline: none !important;
+  }
+}
+
+.dataTables_length {
+  font-size: 12px;
+  background-color: #109cf1;
+  border-radius: 5px !important;
+  color: #fff !important;
+  padding: 0 0.5rem;
+  & > label > select {
+    color: #109cf1 !important;
+    background-color: #fff !important;
+    border: 1px solid #109cf1 !important;
+    &:focus {
+      outline: none !important;
+    }
+  }
+}
+
+table.dataTable.no-footer {
+  border-bottom: 0 !important;
+}
+table.dataTable thead th {
+  border-bottom: 0 !important;
+}
+.odd,
+.even,
+.sorting_1,
+.sorting_2 {
+  background-color: #fff !important;
+}
+// Custom Button
+.assign-to {
+  background-color: #eff1f6;
+  color: #515151 !important;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0.1rem 0.6rem;
+  border-radius: 4px;
+}
+
+.dataTables_info,
+.paginate_button,
+.previous,
+.disabled {
+  display: none;
+}
+.dataTables_paginate,
+.paging_simple_numbers {
+  display: none;
+}

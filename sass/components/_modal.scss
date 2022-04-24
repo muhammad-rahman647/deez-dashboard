@@ -1,0 +1,65 @@
+.modal-size {
+  max-width: 50% !important;
+}
+.modal-border {
+  background: #ffffff;
+  border-radius: 23px !important;
+}
+.alert-modal {
+  position: relative;
+}
+.alert-button {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.modal-text {
+  background: #ffffff;
+  box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 23px;
+  margin: 7% 7% 4% 7%;
+  padding: 2.3rem 2rem 1rem 2rem;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+.modal-buttons {
+  display: flex;
+  //   text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.btn-no {
+  background: #f2f2f2 !important;
+  border-radius: 4px !important;
+  color: #b0b0b0 !important;
+  max-width: 15%;
+  width: 15%;
+  margin-right: 1rem;
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+.btn-yes {
+  background: #109cf1 !important;
+  border-radius: 4px !important;
+  color: #fff !important;
+  max-width: 15%;
+  width: 15%;
+  margin-left: 1rem;
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+.box-shadow-none {
+  box-shadow: none;
+  color: #262835;
+  font-size: 23px;
+  padding: 0 5rem !important;
+}

@@ -1,0 +1,106 @@
+.pay-form-wrapper {
+  padding: 2rem 0;
+}
+
+.pay__container {
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+
+.pay-form__container {
+  position: absolute;
+  top: 5rem;
+  padding: 7rem 0 1rem 0;
+  background: var(--color-white);
+  border: 2px solid #000;
+  border-radius: 23px;
+  position: relative;
+}
+
+.pay-form__step {
+  background: #ecedee;
+  text-align: center;
+  padding-top: 0.4rem;
+}
+
+.pay-form__step > span {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.step__description {
+  font-size: 1rem;
+  padding: 0.3rem 0;
+  color: var(--color-black);
+}
+
+.step__download-btn {
+  background-color: var(--color-accent-blue);
+  border-radius: 11px;
+  padding: 0.4rem 2.5rem;
+  border: none;
+  outline: none;
+}
+
+.step__download-btn:focus,
+.step__download-btn:hover,
+.step__download-btn:active {
+  outline: none;
+  box-shadow: none;
+  background-color: var(--color-accent-blue);
+}
+
+.step__select-file-btn {
+  color: #a5a5a5;
+  background-color: #ecedee;
+  border: 1px dashed #b6b6b6;
+  box-sizing: border-box;
+  border-radius: 11px;
+  padding: 0.7rem 3.2rem;
+}
+
+.step__select-file-btn:focus,
+.step__select-file-btn:hover,
+.step__select-file-btn:active {
+  outline: none;
+  box-shadow: none;
+  background: #ecedee;
+}
+
+.border-dashed {
+  padding-top: 1rem;
+  text-align: center;
+  border-top: 1px dashed rgba(16, 156, 241, 0.32);
+}
+
+.step__submit-form-btn {
+  color: var(--color-white);
+  background-color: var(--color-accent-blue);
+  border: 1px dashed var(--color-accent-blue);
+  box-sizing: border-box;
+  border-radius: 11px;
+  padding: 0.4rem 5rem;
+}
+
+.step__submit-form-btn:focus,
+.step__submit-form-btn:hover,
+.step__submit-form-btn:active {
+  outline: none;
+  box-shadow: none;
+  background-color: var(--color-accent-blue);
+}
+
+.pay-card {
+  width: 320px;
+  height: 184px;
+  position: absolute;
+  top: -7%;
+  background: var(--color-white);
+  border: 2px solid #000000;
+  border-radius: 23px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

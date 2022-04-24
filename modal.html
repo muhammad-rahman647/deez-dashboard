@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Bootstrap 5 CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      alert Modal
+    </button>
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-bs-toggle="modal"
+      data-bs-target="#logout"
+    >
+      logout
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-size">
+        <div class="modal-content modal-border">
+          <div class="alert-modal">
+            <div class="alert-button">
+              <img src="img/modal/alert.png" alt="alert" />
+            </div>
+            <div class="modal-text">
+              Check Stub accordance with U.S. tax law and IRS regulations, it is
+              a requirement for the merchants to collect W-9 forms from all
+              affiliates who are US citizens. It is a way for the government to
+              ensure that taxes are being paid, Learn more about the W-9 form
+              here
+            </div>
+            <div class="modal-buttons">
+              <button class="btn btn-no">No</button>
+              <button class="btn btn-yes">Yes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal logout-->
+    <div
+      class="modal fade"
+      id="logout"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-size">
+        <div class="modal-content modal-border">
+          <div class="alert-modal">
+            <div class="modal-text box-shadow-none">
+              Are you sure to delete the employee named as “William Smith”
+            </div>
+            <div class="modal-buttons">
+              <button class="btn btn-no">No</button>
+              <button class="btn btn-yes">Yes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap 5 CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

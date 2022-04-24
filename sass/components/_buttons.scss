@@ -1,0 +1,12 @@
+.search-button {
+  border-radius: 50%;
+  background-color: #109cf1;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & > svg > path {
+    fill: #fff;
+  }
+}
